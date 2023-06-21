@@ -100,7 +100,7 @@ html::-webkit-scrollbar-thumb{
 }
 .header .navbar a{
     margin:0 1rem;
-    font-size:1.6rem ;
+    font-size:1.7rem ;
     color: #fff;
 
 }
@@ -302,7 +302,7 @@ html::-webkit-scrollbar-thumb{
 }
 .menu .box-container .box ul{
     color: #fff;
-    text-align:start;
+    text-align:center;
     padding-left: 3rem;
     font-size: 1.5rem;
     list-style: none;
@@ -710,9 +710,9 @@ html::-webkit-scrollbar-thumb{
     .header .navbar a{
         color: var(--black);
         display: block;
-        margin: 1.5rem;
-        padding: .5rem;
-        font-size:2rem ;
+        margin: 3rem;
+        padding: 1rem;
+        font-size:2.5rem ;
         text-align:start;
     }
     .header .search-form{
