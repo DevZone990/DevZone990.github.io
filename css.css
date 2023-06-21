@@ -698,9 +698,9 @@ html::-webkit-scrollbar-thumb{
     .header .navbar{
         position: absolute;
         top: 100%;right: -100%;
-        background: #fff;
-        width: 30rem;
-        height: calc(100vh - 9.5rem);
+        background: var(--bg);
+        width: 40rem;
+        height: 100vh;
         transition: 1s ease; 
     }
     .header .navbar.active{
@@ -709,13 +709,14 @@ html::-webkit-scrollbar-thumb{
 
     }
     .header .navbar a{
-        color: var(--black);
+        color:#ccc;
         display: block;
         margin: 3rem;
         padding: 1rem;
         font-size:2.5rem ;
         text-align:start;
     }
+    
     .header .search-form{
         width: 90%;
         right: 2rem;
@@ -740,6 +741,27 @@ html::-webkit-scrollbar-thumb{
     html{
         font-size:50% ;
        
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;right: -100%;
+        background: var(--bg);
+        width: 100%;
+        height: 100vh;
+        transition: 1s ease; 
+    }
+    .header .navbar.active{
+        right: 0px;
+        transition: .8s ease;
+
+    }
+    .header .navbar a{
+        color:#ccc;
+        display: block;
+        margin: 3rem;
+        padding: 1rem;
+        font-size:2.5rem ;
+        text-align:center;
     }
     .vista-producto .vista img{
         height:15rem ;

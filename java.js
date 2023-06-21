@@ -6,6 +6,15 @@ document.querySelector('#menu-btn').onclick = ()=>{
     // searchForm.classList.remove('active');
 }
 
+//optenemos los enlaces del navbar
+const enlaces = navbar.querySelectorAll('a');
+//agregamos el controlador
+enlaces.forEach(function(enlace){
+    enlace.addEventListener('click',function(){
+        navbar.classList.remove('active');
+    })
+
+});
 // let cartItem = document.querySelector('.cart-items-container');
 
 // document.querySelector('#cart-btn').onclick = ()=>{
@@ -25,6 +34,11 @@ Window.onscroll = ()=>{
     // cartItem.classList.remove('active');
     // searchForm.classList.remove('active');
 }
+
+
+
+
+
 // ---------------------------------- fin de menu burger---------------
 // const $form = document.querySelector('#form');
 // const $buttonMailto = document.querySelector('#trucazo');
