@@ -77,7 +77,7 @@ html::-webkit-scrollbar-thumb{
 .hidden{
     transform: scale(0.8);
     opacity: 0;
-    transition: all 1s ease-out;
+    transition: all .5s ease-out;
 }
 .mostrar{
    transform: scale(1);
@@ -289,9 +289,9 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     border:var(--border)
 }
-.menu .box-container1 .box1:hover{
+/* .menu .box-container1 .box1:hover{
    border: 2px solid #fff;
-}
+} */
 .menu .box-container1 .box1 img{
     height:10rem ;
 }
